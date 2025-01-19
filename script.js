@@ -28,6 +28,6 @@ btnno.addEventListener("click",()=>{
 })
 
 btnreset.addEventListener("click",()=>{
-  profile.src="photo/Hd_dog_hold_flower.jpg";
+  profile.src="photo/Hd_dog_hold_flower.jpg"
   description.innerHTML="Be Mine..?💌"
 })
