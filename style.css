@@ -11,13 +11,15 @@
   margin-top: 50px;
   box-shadow: 4px 6px 5px silver;
   border-radius: 5px;
+  position: relative;
 }
 .bbox .btn2{
   margin-left: 5px;
   margin-top: 5px;
-  position: fixed;
+  position: relative;
   width: auto;
   height: auto;
+  position: absolute;
 }
 .bbox .profile{
   /* background-color: red; */
