@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bbox{
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 6px 5px silver;
+  border-radius: 5px;
+}
+.bbox .btn2{
+  margin-left: 5px;
+  margin-top: 5px;
+  position: fixed;
+  width: auto;
+  height: auto;
+}
+.bbox .profile{
+  /* background-color: red; */
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+}
+.bbox .profile .img{
+  background-color: rgb(221, 178, 207);
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
+.bbox .profile .img img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
+.bbox .txt{
+  text-align: center;
+  margin-top: 50px;
+}
+.bbox .btn1{
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+}
