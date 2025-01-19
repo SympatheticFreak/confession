@@ -6,7 +6,7 @@ var btnno=document.querySelector("#btnno");
 var btnreset=document.querySelector('#btnreset');
 var happycat=new Audio("../Image/audio/happy-happy-happy-song.mp3");
 var sadcat=new Audio("../Image/audio/hamster dry drag.mp3");
-profile.src="/photo/Hd_dog_hold_flower.jpg";
+profile.src="photo/Hd_dog_hold_flower.jpg";
 profile.alt="Profile not found";
 title.innerHTML="- Lysorng";
 description.innerHTML="Be Mine..?💌"
@@ -28,6 +28,6 @@ btnno.addEventListener("click",()=>{
 })
 
 btnreset.addEventListener("click",()=>{
-  profile.src="/photo/Hd_dog_hold_flower.jpg";
+  profile.src="photo/Hd_dog_hold_flower.jpg";
   description.innerHTML="Be Mine..?💌"
 })
